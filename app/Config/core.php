@@ -35,6 +35,11 @@
  */
 	Configure::write('debug', 2);
 
+
+// 	Configure::write('envronment', 'production');		// 本番環境
+	Configure::write('envronment', 'development');		// 開発環境①
+// 	Configure::write('envronment', 'development_sub');	// 開発環境②
+
 /**
  * Configure the Error handler used to handle errors for your application. By default
  * ErrorHandler::handleError() is used. It will display errors using Debugger, when debug > 0
