@@ -54,7 +54,7 @@ class HomesController extends AppController {
 	public function index() {
 		$path = func_get_args();
 
-		$title_for_layout = Inflector::humanize($path[$count - 1]);
+		$title_for_layout = '';
 
 		$this->set(compact('title_for_layout'));
 		$this->render();
