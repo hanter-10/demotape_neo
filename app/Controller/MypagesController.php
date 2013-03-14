@@ -2,7 +2,7 @@
 /**
  * Static content controller.
  *
- * This file will render views from views/homes/
+ * This file will render views from views/mypages/
  *
  * PHP 5
  *
@@ -27,16 +27,16 @@ App::uses('AppController', 'Controller');
  * Override this controller by placing a copy in controllers directory of an application
  *
  * @package       app.Controller
- * @link http://book.cakephp.org/2.0/en/controllers/homes-controller.html
+ * @link http://book.cakephp.org/2.0/en/controllers/mypages-controller.html
  */
-class HomesController extends AppController {
+class MypagesController extends AppController {
 
 /**
  * Controller name
  *
  * @var string
  */
-	public $name = 'Homes';
+	public $name = 'Mypages';
 
 /**
  * This controller does not use a model
